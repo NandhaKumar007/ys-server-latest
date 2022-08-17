@@ -1,0 +1,53 @@
+{
+  "name": "yourstore",
+  "version": "1.0.0",
+  "description": "yourstore server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ashok9730/yourstore-server.git"
+  },
+  "author": "Ashok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ashok9730/yourstore-server/issues"
+  },
+  "homepage": "https://gitlab.com/ashok9730/yourstore-server#readme",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "colorthief": "^2.3.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dateformat": "^3.0.3",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.5",
+    "file-system": "^2.2.2",
+    "gif-extract-frames": "^1.0.2",
+    "helmet": "^4.4.1",
+    "image-size": "^0.8.3",
+    "instamojo-nodejs": "0.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.3",
+    "morgan": "^1.9.1",
+    "node-ccavenue": "^1.0.5",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^2.0.19",
+    "path": "^0.12.7",
+    "paypal-rest-sdk": "^1.8.1",
+    "pdfkit": "^0.13.0",
+    "razorpay": "^2.0.5",
+    "request": "^2.88.0",
+    "sharp": "^0.29.3",
+    "square-connect": "^4.20200722.1",
+    "urlencode": "^1.1.0",
+    "web-push": "^3.4.5",
+    "xls-to-json-lc": "^0.3.4",
+    "xlsx-to-json-lc": "^0.5.0"
+  }
+}
